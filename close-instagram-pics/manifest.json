@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Close Instagram Pics",
-  "version": "0.1.0",
-  "description": "Click the grey to close.",
+  "version": "0.1.1",
+  "description": "Click the grey area around the instagram post to close the image.",
   "permissions": [
     "tabs"
   ],
