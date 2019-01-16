@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Close Instagram Pics",
+  "version": "0.1.0",
+  "description": "Click the grey to close.",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.instagram.com/*"
+      ],
+      "js": ["js/instagram.js"]
+    }
+  ]
+}
